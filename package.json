@@ -1,0 +1,14 @@
+{
+  "name": "@arvindkalra/sails-hook-request",
+  "version": "0.0.3",
+  "description": "A sails hook for internal requests with basic auth",
+  "main": "index.js",
+  "sails": {
+    "isHook": true,
+    "hookName": "request"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.20"
+  }
+}
