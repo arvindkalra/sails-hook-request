@@ -167,7 +167,7 @@ const validateRequestObject = (requestOptions) => {
 };
 
 const handleResponse = (res) => {
-    const response = res.data;p
+    const response = res.data;
     logResponse(response);
     return response;
 };
