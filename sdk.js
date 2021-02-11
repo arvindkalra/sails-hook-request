@@ -162,11 +162,12 @@ const validateRequestObject = (requestOptions) => {
             "Url is required in request options for making the api request"
         );
     }
+    _.set(selectedOptions, ['headers', 'Content-Type'], 'application/json')
     return selectedOptions;
 };
 
 const handleResponse = (res) => {
-    const response = res.data;
+    const response = res.data;p
     logResponse(response);
     return response;
 };

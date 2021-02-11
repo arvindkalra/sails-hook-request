@@ -1,6 +1,6 @@
 {
   "name": "@arvindkalra/sails-hook-request",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A sails hook for internal requests with basic auth",
   "main": "index.js",
   "sails": {
